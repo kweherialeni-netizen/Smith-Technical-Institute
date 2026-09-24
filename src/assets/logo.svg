@@ -1,0 +1,24 @@
+<!-- Top Header Banner -->
+<v-sheet color="#0d1f3d" class="py-4 text-white border-b" style="border-color: #e8a825 !important;">
+  <v-container class="d-flex align-center justify-space-between flex-wrap ga-2">
+    <div class="d-flex align-center">
+      <!-- Logo Image replacing icon -->
+      <v-avatar size="48" class="mr-3 bg-transparent">
+        <v-img src="@/assets/logo.png" alt="Smith Institute Logo" contain />
+      </v-avatar>
+
+      <div>
+        <h1 class="text-subtitle-1 text-sm-h6 font-weight-black text-amber-accent-2 text-uppercase mb-0 style-title">
+          Smith Institute of Applied Skills
+        </h1>
+        <div class="text-caption text-grey-lighten-2 font-weight-medium">
+          Vocational Training & Applied Trade Programs
+        </div>
+      </div>
+    </div>
+
+    <v-chip color="#e8a825" variant="flat" size="small" class="font-weight-bold text-grey-darken-4">
+      Intake Ongoing
+    </v-chip>
+  </v-container>
+</v-sheet>
