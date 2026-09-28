@@ -7,7 +7,7 @@ import Home from '@/components/Home.vue'
 import Course from '@/components/Course.vue'
 import Apply from '@/components/Apply.vue'
 import About from '@/components/AboutUs.vue'
-import Contact from '@/components/Contact.vue'
+
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -37,12 +37,7 @@ const router = createRouter({
       component: About,
       meta: { title: 'About Us | Smith Institute of Applied Skills' },
     },
-    {
-      path: '/contact',
-      name: 'Contact',
-      component: Contact,
-      meta: { title: 'Contact Us | Smith Institute of Applied Skills' },
-    },
+    
   ],
   scrollBehavior() {
     return { top: 0 }
