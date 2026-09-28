@@ -15,7 +15,7 @@
 <script lang="ts" setup>
 import { ref, provide } from 'vue'
 import WhatsAppWidget from '@/components/WhatsAppWidget.vue'
-import FeeStructureDialog from '@/components/feeStructureDialog.vue'
+import FeeStructureDialog from '@/components/FeeStructureDialog.vue'
 
 const showFeeModal = ref<boolean>(false)
 
